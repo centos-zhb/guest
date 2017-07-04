@@ -16,6 +16,7 @@ Including another URLconf
 from django.conf.urls import url
 from django.contrib import admin
 from sign import views
+from django.conf.urls import url,include
 
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
@@ -30,4 +31,5 @@ urlpatterns = [
     url(r'^sign_index/(?P<event_id>[0-9]+)/$',views.sign_index),
     url(r'^sign_index_action/(?P<event_id>[0-9]+)/$',views.sign_index_action),
     url(r'^logout/$',views.logout),
+    url(r'^api/',include('sign.urls',namespace="sign")),
 ]
