@@ -154,7 +154,7 @@
 
 #changelist-filter ul:last-child {
     border-bottom: none;
-    padding-bottom: none;
+    padding-bottom: auto;
 }
 
 #changelist-filter li {

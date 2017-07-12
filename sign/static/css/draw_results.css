@@ -3,7 +3,7 @@
 /* CSS Document */
 html{overflow-x:auto; overflow-y:hidden;}
 *{padding: 0px;margin: 0px;}
-@font-face{font-family:'思源黑体 CN';src:url(/static/image/sign/mx4.ttf);
+@font-face{font-family:'思源黑体 CN';src:url(../image/sign/mx4.ttf);
 font-style:normal; font-weight:normal;}
 a{text-decoration: none;font-family: "思源黑体 CN";font-weight: lighter;}
 li{list-style: none;}
@@ -13,16 +13,16 @@ input{cursor: pointer;}
 body{font-family: "思源黑体 CN","Microsoft Yahei","宋体",Tahoma,'Simsun',Arial,Helvetica,sans-serif,"微软雅黑";font-weight: lighter;
 margin:0;height:100%;overflow-y:auto;}
 .clear{clear: both;width: 0px;height: 0px;overflow: hidden;}
-#body_bg{background: url(/static/image/sign/bg-top-center.png) top center #fff no-repeat ;width: 100%;height: 100%;}
-#bg_left{background: url(/static/image/sign/bg-left.png) bottom no-repeat;width: 170px;height: 100%;position: absolute;bottom: 0px;}
-#bg_left_center{background: url(/static/image/sign/bg-left-center.png) left center no-repeat;width: 100px;height: 100px;position: absolute;bottom: 50%;margin-bottom: -50px;left: 0;}
-#bg_left_bottom{background: url(/static/image/sign/bg-left-bottom.png) 0 0 no-repeat;width: 458px;height: 274px;position: absolute;bottom: 0;left:0;}
-#bg_right_top{background: url(/static/image/sign/bg-right-top.png) 0 0 no-repeat;width: 332px;height: 305px;position: absolute;right:0;top: 0;}
-#bg_right_bottom{background: url(/static/image/sign/bg-right-bottom.png) 0 0 no-repeat;width: 387px;height: 274px;position: absolute;right:0;bottom: 0;}
-#bg_buttom{ background:url(/static/image/sign/bg-bottom.png) bottom no-repeat;
+#body_bg{background: url(../image/sign/bg-top-center.png) top center #fff no-repeat ;width: 100%;height: 100%;}
+#bg_left{background: url(../image/sign/bg-left.png) bottom no-repeat;width: 170px;height: 100%;position: absolute;bottom: 0px;}
+#bg_left_center{background: url(../image/sign/bg-left-center.png) left center no-repeat;width: 100px;height: 100px;position: absolute;bottom: 50%;margin-bottom: -50px;left: 0;}
+#bg_left_bottom{background: url(../image/sign/bg-left-bottom.png) 0 0 no-repeat;width: 458px;height: 274px;position: absolute;bottom: 0;left:0;}
+#bg_right_top{background: url(../image/sign/bg-right-top.png) 0 0 no-repeat;width: 332px;height: 305px;position: absolute;right:0;top: 0;}
+#bg_right_bottom{background: url(../image/sign/bg-right-bottom.png) 0 0 no-repeat;width: 387px;height: 274px;position: absolute;right:0;bottom: 0;}
+#bg_buttom{ background:url(../image/sign/bg-bottom.png) bottom no-repeat;
 width: 100%;height: 84px;position: absolute;z-index: 2; }
 #text{width: 100%;position: absolute;font-size: 60px;color: #333333;text-align: center;}
-#cent_box{width: 486px;margin:0 auto;height:148px;background: url(/static/image/sign/cent.png) no-repeat;position: absolute;left: 50%;margin-left: -243px; }
+#cent_box{width: 486px;margin:0 auto;height:148px;background: url(../image/sign/cent.png) no-repeat;position: absolute;left: 50%;margin-left: -243px; }
 #cent_box .box{width: 446px;
     height: 108px;
     left: 20px;
@@ -37,7 +37,7 @@ line-height: 130px;color: #fff;}
 margin: 0 auto;top: 0px;z-index: 4;position: absolute;width: 1100px;}
 #texts{padding-top :60px;text-align: center;color: #fff;font-size: 48px;}
 #cent_boxs .num{height: 132px;width: 990px;margin: 0 auto;}
-#cent_boxs .num li{background:url(/static/image/sign/draw_icon.png) no-repeat -569px -242px;
+#cent_boxs .num li{background:url(../image/sign/draw_icon.png) no-repeat -569px -242px;
 width: 70px;height: 132px;margin:0px 10px;float: left;display: inline-block;position: relative;
 overflow: hidden;text-align: center;}
 #cent_boxs .num li img{position: absolute;top: 0px;left: 0px;}
@@ -63,13 +63,13 @@ padding-bottom: 30px;}
 #cent_boxs_bg .box_2  li.none{padding: 0px;}
 #cent_boxs_bg .box_3{width: 920px;height: 340px;margin:0 auto;}
 #show{position: relative;z-index: 6;position: absolute;}
-#show .smile{background:url(/static/image/sign/draw_icon.png) no-repeat
+#show .smile{background:url(../image/sign/draw_icon.png) no-repeat
 -150px -110px;width:150px;height: 80px;display: inline-block;font-size: 30px;
 color: #fff;height: 80px;line-height: 80px;padding-left: 107px;}
-#show .cry{background:url(/static/image/sign/draw_icon.png) no-repeat
+#show .cry{background:url(../image/sign/draw_icon.png) no-repeat
 -150px -230px;width:240px;height: 80px;display: inline-block;font-size: 30px;
 color: #fff;height: 80px;line-height: 80px;padding-left: 107px;}
-#show .sign_hint{background:url(/static/image/sign/draw_icon.png) no-repeat
+#show .sign_hint{background:url(../image/sign/draw_icon.png) no-repeat
 -150px -340px;width:240px;height: 80px;display: inline-block;font-size: 30px;
 color: #fff;height: 80px;line-height: 80px;padding-left: 107px;}
 .affirm{position: absolute;top: 20px;left: 30px;background: #f0f9ff;border-radius: 7px;
@@ -116,9 +116,9 @@ line-height: 52px;vertical-align: middle;font-size: 24px;display: inline-block;m
 	vertical-align: middle;
 	text-align: center;}
 #txt_box ul .disabled{background-color: #ccc;cursor: default; }
-.issue{ background:url(/static/image/sign/draw_icon.png) no-repeat;}
+.issue{ background:url(../image/sign/draw_icon.png) no-repeat;}
 .win{font-size: 44px;line-height: 80px;vertical-align: middle;color: #30db48;}
-#txt_box ul .win_img{background:url(/static/image/sign/yes.png) no-repeat 300px 0;vertical-align: middle;
+#txt_box ul .win_img{background:url(../image/sign/yes.png) no-repeat 300px 0;vertical-align: middle;
 	height: 74px;
 	display: inline-block;
 	text-indent: 145px;
@@ -129,14 +129,14 @@ line-height: 52px;vertical-align: middle;font-size: 24px;display: inline-block;m
 	width: 100%;
 	text-align: center;}
 .wined{
-	background: url(/static/image/sign/signed.png) no-repeat;
+	background: url(../image/sign/signed.png) no-repeat;
 	position: absolute;
 	width: 158px;
 	height: 159px;
 	top: -76px;
     left: -58px; }
 #txt_box ul .been_img{background-position:-418px 0px;vertical-align: middle;line-height: 50px;width: 50px;height: 50px;display: inline-block;}
-#cent_box_isn{overflow: hidden;position: absolute;z-index: 7;background:url(/static/image/sign/bg.png) no-repeat;width: 100%;
+#cent_box_isn{overflow: hidden;position: absolute;z-index: 7;background:url(../image/sign/bg.png) no-repeat;width: 100%;
 height: 100%;top: 0px;background-size:100% 100%;}
 #text_box_2{
 	/* width: 410px; */
@@ -151,7 +151,7 @@ height: 100%;top: 0px;background-size:100% 100%;}
 #text_box_2 .cry{
 	width: 74px;
 	height: 74px;
-	background:url(/static/image/sign/error.png) no-repeat ;
+	background:url(../image/sign/error.png) no-repeat ;
 	display: inline-block;
 	vertical-align: middle;
 	margin-right: 20px;
@@ -159,14 +159,14 @@ height: 100%;top: 0px;background-size:100% 100%;}
 #text_box_2 .smile{
 	width: 74px;
 	height: 74px;
-	background:url(/static/image/sign/yes.png) no-repeat ;
+	background:url(../image/sign/yes.png) no-repeat ;
 	display: inline-block;
 	vertical-align: middle;
 	margin-right: 20px;
 }
 
 #tips{
-	background:url(/static/image/sign/erro_text.png) no-repeat;
+	background:url(../image/sign/erro_text.png) no-repeat;
 	vertical-align:middle;
 	height: 74px;
 	}
@@ -175,7 +175,7 @@ height: 100%;top: 0px;background-size:100% 100%;}
 	font-size: 48px;
 	color: #fff;
 }
-.text_icon{background: url(/static/image/sign/icon.png);}
+.text_icon{background: url(../image/sign/icon.png);}
 #station{background-position: 0px 8px;text-indent: 25px;}
 #position{background-position: -500px -206px;text-indent: 35px;}
 #telphone{background-position: 0px 65px;text-indent: 25px;}
@@ -189,7 +189,7 @@ height: 100%;top: 0px;background-size:100% 100%;}
 .valid_box{float:left;}
 .valid_box #valid{line-height: 100px;vertical-align: middle;color: #d85656;font-size:30px;margin-left:20px;}
 .start{
-	background:url(/static/image/sign/money.png) no-repeat;
+	background:url(../image/sign/mx4.ttf) no-repeat;
 	width: 40px;
     height: 40px;
     display: none;
@@ -240,7 +240,7 @@ height: 100%;top: 0px;background-size:100% 100%;}
 	margin-bottom: 0;
 }
 .li-selected{
-	background: url(/static/image/sign/selected.png) no-repeat ;
+	background: url(../image/sign/selected.png) no-repeat ;
 	width: 64px;
 	height: 64px;
 	position: absolute;
@@ -294,7 +294,7 @@ height: 100%;top: 0px;background-size:100% 100%;}
 	background-color:#55d3ff;
 }
 .is-sign{
-	background: url(/static/image/sign/signed-blue.png) no-repeat;
+	background: url(../image/sign/signed-blue.png) no-repeat;
 	position: absolute;
 	width: 81px;
 	height: 81px;

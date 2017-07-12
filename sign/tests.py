@@ -54,6 +54,6 @@ class LoginActionTest(TestCase):
 
     def test_login_action_success(self):
         '''登录成功'''
-        test_data = {'username':'admin','password':'zhb194236'}
+        test_data = {'username':'admin','password':'admin123456'}
         response = self.c.post('/login_action/',data=test_data)
         self.assertEqual(response.status_code,302)

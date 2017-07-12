@@ -1,5 +1,5 @@
 from django.contrib import admin
-from sign.models import Event,Guest
+from sign.models import *
 
 # Register your models here.
 class EventAdmin(admin.ModelAdmin):
@@ -9,7 +9,8 @@ class EventAdmin(admin.ModelAdmin):
 
 class GuestAdmin(admin.ModelAdmin):
     list_display = ['realname','phone','email','sign','create_time','event']
-    search_fields = ['realname','phone']  #搜索栏
+    list_display_links = ('realname','phone')  #显示链接
+    search_fields = ['realname','phone']  #搜索功能
     list_filter = ['sign']  #过滤器
 
 admin.site.register(Event,EventAdmin)
