@@ -1,3 +1,5 @@
+# -*- coding:utf-8 -*-
+#!/usr/bin/python
 from django.contrib import admin
 from sign.models import *
 

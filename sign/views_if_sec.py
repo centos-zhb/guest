@@ -1,3 +1,5 @@
+# -*- coding:utf-8 -*-
+#!/usr/bin/python
 from django.http import JsonResponse
 from sign.models import Event, Guest
 from django.core.exceptions import ObjectDoesNotExist, ValidationError

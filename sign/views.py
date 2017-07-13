@@ -1,3 +1,5 @@
+# -*- coding:utf-8 -*-
+#!/usr/bin/python
 from django.shortcuts import render
 from django.http import HttpResponse,HttpResponseRedirect
 from django.contrib import auth
