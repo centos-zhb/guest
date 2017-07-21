@@ -1,20 +1,43 @@
 <!DOCTYPE html>
-<html lang="en" xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
-<head>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    <title>用户注册</title>
+{% load static %}
+<html lang="zh-CN"><head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Regist</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="//cdn.bootcss.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <link href="{% static 'css/ie10-viewport-bug-workaround.css' %}" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="//v3.bootcss.com/examples/signin/signin.css" rel="stylesheet">
+
+    <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
+    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+    <script src="{% static 'js/ie-emulation-modes-warning.js' %}"></script>
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://cdn.bootcss.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
 </head>
-    <style>
-        body{color: #efd;background: #453;padding: 0 5em;margin: 0}
-        h1{padding: 2em 1em;background: #675}
-        h2{color: #bf8;border-top: 1px dotted #fff;margin-top: 2em}
-        p{margin: 1em 0}
-    </style>
+<style>
+    html,body{text-align:center;margin:0px auto;}
+</style>
 <body>
-    <h1>注册页面：</h1>
-        <form method="post" enctype="multipart/form-data">
-            {{ uf.as_p }}
-            <input type="submit" value="ok" />
-        </form>
+<h1>注册页面</h1>
+<form method = 'post' enctype="multipart/form-data">
+    {{userform.as_p}}
+    <input type="submit" value = "Regist" />
+</form>
 </body>
 </html>
