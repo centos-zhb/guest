@@ -1,5 +1,5 @@
 # -*- coding:utf-8 -*-
-#!/usr/bin/python
+#!/usr/bin/python3
 from django.test import TestCase
 from sign.models import Event,Guest
 from django.test import Client

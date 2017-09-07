@@ -1,5 +1,5 @@
 # -*- coding:utf-8 -*-
-#!/usr/bin/python
+#!/usr/bin/python3
 from django.db import models
 
 # Create your models here.

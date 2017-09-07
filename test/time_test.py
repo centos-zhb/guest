@@ -1,4 +1,5 @@
 # -*- coding:utf-8 -*-
+#!/usr/bin/python3
 import time
 
 # 当前时间戳
